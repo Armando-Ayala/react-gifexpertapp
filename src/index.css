@@ -4,12 +4,23 @@
 
 body {
   padding: 60px;
+  background: #264653;
+}
+
+h1 {
+  text-align: center;
+}
+
+h1, h2 {
+  color: #2A9D8F;
 }
 
 input {
+  background: #F7FFF7;
   color: gray;
   font-size: 1.2rem;
   width: 100%;
+  border-radius: 6px;
 }
 
 .card-grid {
@@ -20,18 +31,25 @@ input {
 
 .card {
   align-content: center;
-  border: 3px solid gray;
+  background: #2A9D8F;
+  border: 4px solid #2A9D8F;
   border-radius: 6px;
   margin-bottom: 10px;
   margin-right: 10px;
   overflow: hidden;
+  /* height: 150px;
+  width: 150px; */
 }
 
 .card p {
+  color: #F7FFF7;
   padding: 5px;
+  width: 150px;
   text-align: center;
 }
 
 .card img {
-  max-height: 170px;
+  height: 150px;
+  width: 170px;
+  /* max-height: 170px; */
 }
